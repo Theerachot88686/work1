@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.assets-landingi.com/uc/44600c52-fa23-4275-9658-79025d3f5316/bg1.png);
+    background-size: cover;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+/* nav */
+.nav {
+    background-image: url(./img/Capture.PNG);
+    height: 60px;
+    align-items: center;
+}
+
+.nav-l {
+    margin: 2%;
+    margin-right: 10%;
+    margin-top: -50px;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-l a {
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+    color: aliceblue;
+    box-shadow: 5 5 5 5 rgba(178, 174, 174, 0.837);
+    transition: box-shadow 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.nav-l a:hover {
+    background-color: aliceblue;
+    color: #010101;
+    border-radius: 5px;
+}
+
+.nav-r img {
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 50px;
+}
+
+/* container1 */
+.back-img {
+    position: absolute;
+    margin-left: 700px;
+    width: 500px;
+}
+
+.body-1-row {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+}
+
+.body-1-video {
+    margin: 50px;
+    margin-left: 160px;
+    margin-top: 10%;
+    width: 2000px;
+    z-index: 2;
+}
+
+.body-r {
+    margin-top: 2%;
+    margin-left: 100px;
+
+}
+
+.body-r img {
+    margin: 30px;
+    width: 300px;
+    height: 220px;
+}
+
+.body-r h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+    color: aliceblue;
+}
+
+.text-body-r {
+    margin: 20px;
+    color: aliceblue;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+/* about */
+
+.ab-text {
+    color: white;
+    background-color: #23333e;
+    background-image: url(https://images.assets-landingi.com/uc/da416efc-8d9d-474a-a2dc-3fa27629a2d1/bg2.crop_390x335_810,0.preview.png);
+    background-position: center left !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 300px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-bottom: 40px
+}
+
+.ab-text-l {
+    margin: 20px;
+    margin-top: 90px;
+    margin-left: 150px;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ab-text-r {
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 20px;
+    margin-top: 90px;
+}
+
+.img-detail {
+    margin-top: -50px;
+    background-color: #172128;
+    background-image: url(https://images.assets-landingi.com/uc/d4771936-33bf-45c8-b2e6-98a7a72c6777/bgedit1.png);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+.detail-ab {
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-ab-detail {
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 320px;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+}
+
+.text-ab-detail-1 {
+    color: #24d1d1;
+    width: 528px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    top: 118.5px;
+    left: 200px;
+    height: 65px;
+    font-style: normal;
+    display: block;
+    margin-left: 450px;
+
+}
+
+.detail-ab-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-ab-1-1 {
+    background-image: linear-gradient(163deg, rgba(14, 14, 16, 0.85), rgba(0, 21, 72, 0.6));
+    background-size: auto !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 35px 60px rgba(0, 0, 0, .3);
+    height: 423px;
+    width: 303px;
+    top: 244px;
+    left: 132px;
+    display: block;
+    margin: -80px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.detail-ab-1-1 h3 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.detail-ab-1-1 p {
+    color: white;
+}
+
+.img-1 {
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 110px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.img-2 {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 110px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.img-3 {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 110px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-ab-1 p {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.detail-ab-2 {
+    background-image: url(https://cdn.lugc.link/ee18b860-a7e2-453e-a1c7-35abdc073f9f/-/format/auto/-/stretch/off/-/resize/x1102/;);
+    background-size: cover;
+}
+
+
+.detail-ab-2-text .img-2 {
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 10px;
+}
+
+.detail-ab-2-text .img-3 {
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -10px;
+}
+
+.detail-ab-2-text .img-4 {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+.detail-ab-2-text h1 {
+    margin: 50px;
+    margin-left: 130px;
+    color: white;
+    font-family: "Sriracha", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.detail-ab-2-text .p-1 {
+    color: white;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+
+.detail-ab-2-text .p-2 {
+    color: white;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.detail-ab-2-text .p-3 {
+    color: white;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.text-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ins {
+    background-image: url(https://images.assets-landingi.com/uc/7e67084d-9cb3-4c2c-8d05-b5f45ca540d9/bgedit3.png);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll;
+    background-size: cover !important;
+    position: relative;
+    border-top-left-radius: initial;
+    border-top-right-radius: initial;
+    border-bottom-left-radius: initial;
+    border-bottom-right-radius: initial;
+    display: block;
+}
+
+.detail-ins {
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-ins-detail {
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 320px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #ffffff;
+    display: flex;
+}
+
+.text-ins-detail-1 {
+    color: #24d1d1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    font-size: 60px;
+    display: block;
+    margin-left: 450px;
+
+}
+
+.card-body {
+    padding: 20px;
+    color: white;
+}
+
+.card-title {
+    color: white;
+ 
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+ 
+    color: #ffffff;
+
+}
+
+.custom-img {
+    width: 100px;
+
+    margin-bottom: 15px;
+    /* กำหนดระยะห่างของรูปภาพกับข้อความด้านล่าง */
+    margin-top: 30px;
+}
+
+
+.align-self-center {
+    align-self: center;
+}
+
+
+.col-lg-4 {
+    margin: 20px;
+    margin-left: 320px;
+}
+
+.cur{
+    background-image: url(https://images.assets-landingi.com/uc/7d227b25-e283-4212-95a0-8768d61ae0d0/Curriculumbox1.png);
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-attachment: scroll;
+    background-size: cover!important;
+    position: relative;
+    border-top-left-radius: initial;
+    border-top-right-radius: initial;
+    border-bottom-left-radius: initial;
+    border-bottom-right-radius: initial;
+    display: block;
+
+}
+
+.C1 {
+    position: relative;
+    top: -30px; /* หรือค่าที่ต้องการ */
+    left: 20px; /* หรือค่าที่ต้องการ */
+    color: #ffffff;
+}
+
+
+
+
+
+
